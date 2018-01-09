@@ -1,0 +1,50 @@
+html{
+
+  background: url(https://pre00.deviantart.net/7d65/th/pre/f/2012/252/6/3/linkin_park_live_wallpaper_by_overkill766-d5e4eaj.jpg);
+  background-size: cover;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+p{
+  font-size: 15px;
+}
+.keys{
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.key{
+  display: block;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  width: 5rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  transition: all .07s ease;
+}
+.playing{
+  border: .5rem solid white;
+  transform: scale(1.1);
+  text-shadow: 0 0 .5rem;
+  box-shadow: 0 0 1rem #fccf35;
+  color: #fccf35;
+
+
+}
+kbd{ye
+  diplay:block;
+  font-size: 4rem;
+}
+.key{
+
+}
